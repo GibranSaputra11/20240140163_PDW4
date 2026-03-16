@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budaya Yogyakarta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+        <h1>Budaya Yogyakarta</h1>
+        <p class="subtitle">Kota Budaya, Seni, dan Warisan Leluhur</p>
+        <p id="tanggal"></p>
+    </div>
+
+    <div class="container">
+        <div class="card-intro">
+            <img src="https://bakpiakukustugu.co.id/uploads/compress/f81f41083029899382dc1a9567bbeb5a.webp"
+                 alt="Kraton Yogyakarta"
+                 class="gambar-jogja">
+            <div class="teks-intro">
+                <h2>Selamat Datang di Jogja</h2>
+                <p>
+                    Yogyakarta adalah kota istimewa yang kaya akan budaya, seni, dan tradisi.
+                    Dari Keraton yang megah hingga seni batik yang mendunia, Jogja selalu
+                    menyimpan pesona yang tak pernah habis untuk dijelajahi.
+                </p>
+                <button onclick="tampil()">Tentang Jogja</button>
+                <button onclick="show()">👋 Sapa Jogja</button>
+            </div>
+        </div>
+
+        <h2 class="section-title">Kekayaan Budaya Jogja</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <img src="https://jogjakonveksi.id/wp-content/uploads/2021/02/Batik-jogja.jpg"
+                     alt="Batik Yogyakarta">
+                <h3>Batik Yogyakarta</h3>
+                <p>Batik Jogja terkenal dengan motif klasiknya seperti Parang dan Kawung yang sarat makna filosofis.</p>
+                <button onclick="infoBatik()">Selengkapnya</button>
+            </div>
+
+            <div class="card">
+                <img src="https://www.kratonjogja.id/assets/content/425039ad-4b5a-4a22-850e-226166350560.jpg"
+                     alt="Wayang Kulit">
+                <h3>Wayang Kulit</h3>
+                <p>Seni pertunjukan wayang kulit adalah warisan budaya tak benda UNESCO yang berasal dari Jawa.</p>
+                <button onclick="infoWayang()">Selengkapnya</button>
+            </div>
+
+            <div class="card">
+                <img src="https://indonesiakaya.com/wp-content/uploads/2023/04/g_Artboard_1.jpg"
+                     alt="Gudeg">
+                <h3>Gudeg</h3>
+                <p>Gudeg adalah makanan khas Jogja yang terbuat dari nangka muda dengan cita rasa manis dan gurih.</p>
+                <button onclick="infoGudeg()">Selengkapnya</button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <p>© 2024 Budaya Yogyakarta — Tugas Praktikum 4 PDW</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
